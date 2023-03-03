@@ -1,0 +1,66 @@
+.container {
+    margin-top: 50px;
+}
+
+.parent-img {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 80%;
+    object-fit: contain;
+}
+
+.price {
+    font-size: x-large;
+}
+
+.block-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.button-shoopingCard {
+
+    border: none;
+    background-color: #abb3a7;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+.button-shoopingCar {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+
+}
+
+.div-contador {
+    display: flex;
+    justify-content: space-around;
+    background: #e9ecef;
+    margin-top: 10px;
+}
+
+.input-elements {
+    border: 2px solid rgb(65, 62, 62);
+    border-radius: 4px;
+    text-align:center
+}
+.input-cart{
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #a7adb3;
+    color: white;
+}
+
+.image-product{
+    width: 80%;
+}
